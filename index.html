@@ -39,16 +39,22 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://rsrinipi2/'; replaceContentInContainer('bname','gxu')">OFSS GX User</a>
+                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://192.168.43.181/'; replaceContentInContainer('bname','gxu')">OFSS GX User</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://rsrinipi2/admin'; replaceContentInContainer('bname','gxa')">OFSS GX Admin</a>
+                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://192.168.43.181/admin'; replaceContentInContainer('bname','gxa')">OFSS GX Admin</a>
                 </li>
                 <li>
                     <a href="#" onclick="parent.window.frames['branch'].location = 'http://rsrinipi/'; replaceContentInContainer('bname','cvru')">OFSS CVR User</a>
                 </li>
                 <li>
                     <a href="#" onclick="parent.window.frames['branch'].location = 'http://rsrinipi/admin'; replaceContentInContainer('bname','cvra')">OFSS CVR Admin</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://192.168.43.26:8084/'; replaceContentInContainer('bname','ecd')">OFSS ECD Config</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://192.168.43.26:8084/#/kiosk/playlist'; replaceContentInContainer('bname','ecdp')">OFSS ECD Playlist</a>
                 </li>
             </ul>
         </div>
@@ -92,12 +98,15 @@
       }
 	</script>
 
-<div id="replacements" style="display:none;">
-    <span id="gxu"><h1>OFSS Digital Signage GX User</h1></span>
-    <span id="gxa"><h1>OFSS Digital Signage GX Admin</h1></span>
-    <span id="cvru"><h1>OFSS Digital Signage CVR User</h1></span>
-    <span id="cvra"><h1>OFSS Digital Signage CVR Admin</h1></span>
-</div>
+    <div id="replacements" style="display:none;">
+        <span id="gxu"><h1>OFSS Digital Signage GX User</h1></span>
+        <span id="gxa"><h1>OFSS Digital Signage GX Admin</h1></span>
+        <span id="cvru"><h1>OFSS Digital Signage CVR User</h1></span>
+        <span id="cvra"><h1>OFSS Digital Signage CVR Admin</h1></span>
+        <span id="ecd"><h1>OFSS Easy Communication Display Config</h1></span>
+        <span id="ecdp"><h1>OFSS Easy Communication Display Playlist</h1></span>
+    </div>
+    
 </body>
 
 </html>
